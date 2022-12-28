@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Article test</h1>
+<ul class="'list-group">
+    {% for article in articles %}
+        <li class='list-group-item'>{{article.title}}</li>
+    {% endfor %}
+</ul>
+
+{% endblock %}
