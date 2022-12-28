@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+
+<h1>Home page 🏡</h1>
+
+<p>Welcome to the home page.</p>
+
+{% if user %}
+    <h2>You are logged in :)</h2>
+    <p>
+        Hi {{ user.username }}! You are logged in, so you can access the private 
+        
+    </p>
+{% else %}
+    <h2>You are NOT logged in :(</h2>
+    <p>
+        Hello {{ id }}. You are not logged. Please follow the link to {{ request }}
+        
+    </p>
+{% endif %}
+
+{% endblock %}

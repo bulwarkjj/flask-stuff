@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "flask-stuff"
+version = "0.1.0"
+description = ""
+authors = ["kevin <noeamil@gmail.com>"]
+readme = "README.md"
+packages = [{include = "flask_stuff"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+sqlmodel = "^0.0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
