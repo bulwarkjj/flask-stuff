@@ -10,6 +10,7 @@ packages = [{include = "flask_stuff"}]
 python = "^3.10"
 flask = "^2.2.2"
 sqlmodel = "^0.0.8"
+flask-sqlalchemy = "^3.0.2"
 
 
 [build-system]
